@@ -1,6 +1,6 @@
 # OmniSocial
 
-A Rails 3 engine for Twitter and Facebook logins using [OmniAuth](http://github.com/intridea/omniauth)
+A Rails 3 engine for Twitter, Facebook and LinkedIn logins using [OmniAuth](http://github.com/intridea/omniauth)
 
 ## Installation
 
@@ -24,12 +24,10 @@ Some more detailed installation instructions are in the [project announcement ar
 
 * [Klaus Hartl](http://github.com/carhartl)
 * [Stephen Aument](http://github.com/stephenaument)
+* [Lucas Allan](http://github.com/lucasallan)
+* [James Dumay](http://github.com/i386)
+* [Pablo Dejuan](http://github.com/pdjota)
 
 ## Copyright & License
 
-OmniSocial is Copyright (c) 2010 [Tim Riley](http://openmonkey.com/) and [Icelab](http://icelab.com.au/), and is released under MIT License.
-
-The "Sign in with Twitter/Facebook" buttons are from [Komodo Media](http://www.komodomedia.com/blog/2009/05/sign-in-with-twitter-and-facebook-buttons/), distributeed under the [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
-
-The twitter bird image is courtesy of [Pasquale D’Silva](http://wefunction.com/2008/07/freebie-twitter-icons-illustration/).
-
+OmniSocial is Copyright (c) 2010-2011 [Tim Riley](http://openmonkey.com/) and [Icelab](http://icelab.com.au/), and is released under MIT License.
