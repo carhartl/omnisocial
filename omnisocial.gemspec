@@ -4,7 +4,7 @@ $:.unshift(lib) unless $:.include?(lib)
 require 'omnisocial/version'
 require 'bundler'
 
-Gem::Specification.new do |gem|  
+Gem::Specification.new do |gem|
   gem.name          = 'omnisocial'
   gem.version       = Omnisocial::VERSION
   gem.platform      = Gem::Platform::RUBY
@@ -16,8 +16,8 @@ Gem::Specification.new do |gem|
   gem.has_rdoc      = false
   gem.files         = %w(README.md) + Dir.glob('{lib,app,config}/**/*')
   gem.require_path  = 'lib'
-  
-  gem.add_dependency 'oa-core',     '~> 0.1.2'
-  gem.add_dependency 'oa-oauth',    '~> 0.1.2'
+
+  gem.add_dependency 'oa-core',     '~> 0.2.0'
+  gem.add_dependency 'oa-oauth',    '~> 0.2.0'
   gem.add_dependency 'bcrypt-ruby', '~> 2.1'
 end
